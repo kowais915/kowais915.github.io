@@ -1,5 +1,45 @@
 
-h1{
+/* h1{
     background-color: aquamarine;
     text-align: center;
+} */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+
+#navbar{
+    background-color: #BE3144;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    align-items: center;
+}
+#navbar ul{
+    display: flex;
+
+}
+#navbar ul li{
+    margin: 20px 20px;
+    list-style-type: none;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    padding: 5px 5px;
+    
+}
+
+#navbar ul li a:hover{
+    background-color: teal;
+    color: white;
+    border: solid 2px transparent;
+    border-radius: 5px;
+}
+
+
