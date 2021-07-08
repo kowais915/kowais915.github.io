@@ -71,4 +71,18 @@
 
 
 }
+/* welcome section */
 
+
+#welcome-section{
+    background-color: #252628;
+    color: white;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    flex-direction: column;
+
+}
