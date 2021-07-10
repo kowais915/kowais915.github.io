@@ -102,3 +102,42 @@
     flex-direction: column;
 
 }
+/* styling footer */
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #303841;
+    
+}
+.social-media{
+    display: flex ;
+    justify-content: center;
+    margin-top: 20px;
+
+    
+}
+.social-media div{
+    max-width: 100%;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.social-media div a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+
+}
+
+#footer h1{
+    font-size: 35px;
+}
+
+#copyright hr{
+height: 2px;
+color: tomato;
+}
+#copyright p{
+    text-align: center;
+    color:white;
+}
