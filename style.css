@@ -108,6 +108,7 @@
     display: flex;
     flex-direction: column;
     background-color: #303841;
+    padding: 15vh;
     
 }
 .social-media{
@@ -136,8 +137,13 @@
 #copyright hr{
 height: 2px;
 color: tomato;
+
 }
 #copyright p{
     text-align: center;
     color:white;
+}
+
+#copyright{
+    padding-top: 10px;
 }
