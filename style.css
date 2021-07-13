@@ -147,3 +147,8 @@ color: tomato;
 #copyright{
     padding-top: 10px;
 }
+/* cards */
+.project:hover{
+    position: relative;
+    top: -5px;
+}
