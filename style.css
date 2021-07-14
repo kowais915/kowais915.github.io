@@ -175,7 +175,7 @@ color: tomato;
    
 }
 #p1 {
-    background-image: url(/images/icp.png);
+    background-image: url(images/icp.png);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
