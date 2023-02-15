@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 #navbar{
@@ -81,5 +88,27 @@
     flex-wrap: wrap;
     font-size: 30px;
     flex-direction: column;
+    
 
+}
+
+/* styling dp */
+#welcome-section > div > img{
+    border-radius: 700px;
+    height: 25vh;
+}
+
+/* styling dp ends here */
+
+/* styling main  */
+
+
+main{
+    background-color: black;
+    padding: 90px ;
+}
+section{
+    padding: 20px 20px;
+    font-size: 30px;
+    color: white;
 }
