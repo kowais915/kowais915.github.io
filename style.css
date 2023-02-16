@@ -113,6 +113,10 @@ html{
 
 /* styling dp ends here */
 
+.fa-stack-overflow, .fa-linkedin, .fa-github{
+    color: rgb(224, 186, 104);
+}
+
 /* styling main  */
 
 
