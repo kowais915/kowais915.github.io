@@ -11,13 +11,18 @@
     font-family: 'Poppins';
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #navbar{
     background-color: black;
     color: white;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     height: 10vh;
     align-items: center;
+    padding: 50px;
 }
 #navbar ul{
     display: flex;
@@ -160,7 +165,7 @@ codersrank-portfolio{
     --logo-size: 64px;
     --tag-bg-color: rgba(255,255,255,0.075);
     
-    --link-text-color: var(--theme-color);
+    --link-text-color: green;
     --link-bg-color: rgba(255,255,255,0.1);
     --link-hover-bg-color: rgba(255,255,255,0.125);
     --link-active-bg-color: rgba(255,255,255,0.075);
