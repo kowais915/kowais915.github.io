@@ -43,8 +43,8 @@ html{
 }
 
 #navbar ul li a:hover{
-    background-color: teal;
-    color: white;
+    background-color: white;
+    color: black;
     border: solid 2px transparent;
     border-radius: 5px;
 }
@@ -113,7 +113,7 @@ html{
 
 /* styling dp ends here */
 
-.fa-stack-overflow, .fa-linkedin, .fa-github{
+.fa-stack-overflow, .fa-linkedin, .fa-github, .fa-envelope{
     color: rgb(224, 186, 104);
 }
 
@@ -131,6 +131,9 @@ section{
     color: white;
 }
 
+section > h1{
+    border-bottom:  white 2px solid;
+}
 
 
 /* summary widget styling */
@@ -178,4 +181,46 @@ codersrank-portfolio{
     --link-text-transform: none;
     --link-font-weight: 500;
     --link-margin: 8px;
+}
+
+
+/* work experience styling */
+codersrank-work-experience{
+    padding: 80px;
+    --item-bg-color: #161616;
+    --item-border-radius: 8px;
+    --item-spacing: 16px;
+    --item-padding: 16px;
+    --logo-size: 90px;
+    --tag-bg-color: rgba(255,255,255,0.075);
+}
+
+
+/* styling education */
+codersrank-education{
+    padding: 80px;
+    --item-bg-color: #161616;
+    --item-border-radius: 8px;
+    --item-spacing: 16px;
+    --item-padding: 16px;
+    --logo-size: 90px;
+    --tag-bg-color: rgba(255,255,255,0.075);
+}
+
+/* styling footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 100px;
+
+}
+
+
+body > footer > h1{
+    font-size: 50px;
+}
+.contacts-footer{
+    font-size: 40px;
 }
