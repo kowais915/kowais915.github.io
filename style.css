@@ -181,6 +181,7 @@ codersrank-portfolio{
     --link-text-transform: none;
     --link-font-weight: 500;
     --link-margin: 8px;
+    font-size: 20px;
 }
 
 
@@ -193,6 +194,7 @@ codersrank-work-experience{
     --item-padding: 16px;
     --logo-size: 90px;
     --tag-bg-color: rgba(255,255,255,0.075);
+    font-size: 20px;
 }
 
 
@@ -205,6 +207,7 @@ codersrank-education{
     --item-padding: 16px;
     --logo-size: 90px;
     --tag-bg-color: rgba(255,255,255,0.075);
+    font-size: 20px;
 }
 
 /* styling footer */
