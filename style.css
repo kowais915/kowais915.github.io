@@ -92,6 +92,14 @@
 
 }
 
+
+#welcome-section > p{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 700px;
+}
 /* styling dp */
 #welcome-section > div > img{
     border-radius: 700px;
@@ -107,8 +115,58 @@ main{
     background-color: black;
     padding: 90px ;
 }
+
 section{
     padding: 20px 20px;
     font-size: 30px;
     color: white;
+}
+
+
+
+/* summary widget styling */
+codersrank-summary{
+    --bg-color: transparent;
+    --badge-bg-color: #161616;
+    --badge-text-color: #fff;
+    --badges-padding: 0px;
+    --badge-padding: 8px;
+    --badge-margin: 16px;
+    --badge-border-radius: 8px;
+    --badge-rank-font-size: 16px;
+    --badge-technology-font-size: 18px;
+    --badge-location-font-size: 16px;
+    --badge-icon-size: 32px;
+    --badge-border: 1px solid rgba(0, 0, 0, 0.1);
+    --badge-box-shadow: none;
+    padding: 40px;
+}
+
+/* styling the widget */
+codersrank-activity{
+    padding: 40px;
+    
+}
+
+/* styling projects */
+codersrank-portfolio{
+    padding: 80px;
+    --grid-columns: 2;
+
+    --item-bg-color: #161616;
+    --item-border-radius: 8px;
+    --item-spacing: 16px;
+    --item-padding: 16px;
+    --logo-size: 64px;
+    --tag-bg-color: rgba(255,255,255,0.075);
+    
+    --link-text-color: var(--theme-color);
+    --link-bg-color: rgba(255,255,255,0.1);
+    --link-hover-bg-color: rgba(255,255,255,0.125);
+    --link-active-bg-color: rgba(255,255,255,0.075);
+    --link-border-radius: 8px;
+    --link-padding: 4px 8px;
+    --link-text-transform: none;
+    --link-font-weight: 500;
+    --link-margin: 8px;
 }

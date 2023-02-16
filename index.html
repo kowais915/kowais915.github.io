@@ -34,7 +34,9 @@
         </div>
         <h1>Hi, I am Owais.</h1>
         <br>
-        <span> A Web Developer</span>
+        <span> Computer Engineer | Machine Learning | A Web Developer</span>
+
+        <p> <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro magnam consequatur quidem laudantium? Quis nam praesentium quia odit tenetur consequatur?</i></p>
         <!-- height should be equal to the height of the viewport -->
 
     </div>
@@ -48,7 +50,22 @@
                 <codersrank-summary 
                     username="kowais915"
                     show-header="false"
+                    badges = 3
+                    min-width= 300
+                    branding= false
                 ></codersrank-summary>
+
+
+                <!-- activity widget -->
+                <br>
+                <codersrank-activity 
+                    username="kowais915"
+                    legend="false"
+                    labels tooltip step="5"
+                    branding='false'
+                   
+
+                ></codersrank-activity>
             </section>
 
 
@@ -57,6 +74,12 @@
             <!-- my projects -->
             <section class="projects">
                 <h1>Projects</h1>
+                <codersrank-portfolio 
+                    username="kowais915"
+                    branding="false"
+                    grid 
+                    company="false"
+                ></codersrank-portfolio>
 
 
             </section>
@@ -90,5 +113,9 @@
 <!-- summary widget -->
 <!-- replace x.x.x with actual version -->
 <script src="https://unpkg.com/@codersrank/summary@x.x.x/codersrank-summary.min.js"></script>
+<!-- activity widget -->
+<script src="https://unpkg.com/@codersrank/activity@x.x.x/codersrank-activity.min.js"></script>
+<!-- portfolio widget -->
+<script src="https://unpkg.com/@codersrank/portfolio@x.x.x/codersrank-portfolio.min.js"></script>
 </body>
 </html>
