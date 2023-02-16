@@ -90,9 +90,14 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     font-size: 30px;
     flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 65vh;
+    padding-bottom: 35vh;
+    
     
 
 }
@@ -101,7 +106,7 @@ html{
 #welcome-section > p{
     text-align: center;
     margin: 5px;
-    padding: 10px;
+    padding-bottom: 20vh;
     font-size: 20px;
     max-width: 700px;
 }
