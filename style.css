@@ -81,7 +81,7 @@ html{
 /* bootstrap menu */
 
 .navbar-nav{
-    padding: 20px;
+    padding: 15px;
 }
 
 .navbar-nav .nav-link{
@@ -470,10 +470,6 @@ codersrank-activity{
     margin-top: 0px;
     margin-bottom: 20px;
     
-}
-
-div > div{
-    height: 500px;
 }
 
 
