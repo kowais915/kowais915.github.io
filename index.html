@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0cd7c3fea8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,19 +15,57 @@
     
     <!-- navbar -->
 
-    <div id="navbar">
+    <!-- <div id="navbar"> -->
         <!-- this should be at the top -->
-        <h2>Owais</h2>
-        <ul>
+        <!-- <h2>Owais</h2>
+        <ul id="links">
             <li><a href="https://drive.google.com/file/d/1yUWU8Bd5SffovXlJ6SpO_Cj_NnAjY8OV/view?usp=sharing">Resume</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#work">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="mailto: kowais915@gmail.com">Email</a></li>
             
-        </ul>
+        </ul> -->
 
+        <!-- ham menu icon -->
+        <!-- <a href="javascript:void(0);" class="icon" onclick="ham()">
+            <i class="fa fa-bars"></i>
+        </a> -->
+
+    <!-- </div> -->
+
+<!-- bootstrap menu -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Owais</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+            <a class="nav-link" href="https://drive.google.com/file/d/1yUWU8Bd5SffovXlJ6SpO_Cj_NnAjY8OV/view?usp=sharing">Resume</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a></li>
+        </li>
+
+        <li>
+            <a class="nav-link" href="#work">Projects</a>
+        </li>
+
+        <li>
+            <a class="nav-link" href="#contact">Contact</a>
+        </li>
+       
+        <li>
+            <a class="nav-link" href="mailto:kowais915@gmail.com">Email</a>
+        </li>
+
+      </ul>
+     
     </div>
+  </nav>
 
 
 
@@ -234,5 +274,10 @@
 <script src="https://unpkg.com/@codersrank/work-experience@x.x.x/codersrank-work-experience.min.js"></script>
 <!-- skills chart -->
 <script src="https://unpkg.com/@codersrank/skills-chart@x.x.x/codersrank-skills-chart.min.js"></script>
+<script src="./ham.js" defer></script>
+<!-- bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
