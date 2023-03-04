@@ -245,7 +245,7 @@ body > footer > h1{
 }
 
 /* making it responsive */
-@media screen and (max-width: 800px){
+@media (min-width: 300px) and (max-width: 800px){
 
     /* styling the navbar */
 
@@ -283,6 +283,202 @@ body > footer > h1{
         
     }
 
+    /* styling projects for mobile devices */
+    /* styling projects */
+codersrank-portfolio{
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    
+    
+    --grid-columns: 1;
+
+    --item-bg-color: #161616;
+    --item-border-radius: 8px;
+    --item-spacing: 16px;
+    --item-padding: 16px;
+    --logo-size: 64px;
+    --tag-bg-color: rgba(255,255,255,0.075);
+    
+    --link-text-color: green;
+    --link-bg-color: rgba(255,255,255,0.1);
+    --link-hover-bg-color: rgba(255,255,255,0.125);
+    --link-active-bg-color: rgba(255,255,255,0.075);
+    --link-border-radius: 8px;
+    --link-padding: 4px 8px;
+    --link-text-transform: none;
+    --link-font-weight: 500;
+    --link-margin: 8px;
+    font-size: 15px;
+    
+    
+}
+
+/* experience */
+/* work experience styling */
+codersrank-work-experience{
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    --item-bg-color: #161616;
+    --item-border-radius: 8px;
+    --item-spacing: 16px;
+    --item-padding: 16px;
+    --logo-size: 70px;
+    --tag-bg-color: rgba(255,255,255,0.075);
+    font-size: 15px;
+}
 
 
+/* education */
+/* styling education */
+codersrank-education{
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    --item-bg-color: #161616;
+    --item-border-radius: 8px;
+    --item-spacing: 16px;
+    --item-padding: 16px;
+    --logo-size: 90px;
+    --tag-bg-color: rgba(255,255,255,0.075);
+    font-size: 15px;
+}
+
+/* styling stats */
+codersrank-summary{
+    --bg-color: transparent;
+    --badge-bg-color: #161616;
+    --badge-text-color: #fff;
+    --badges-padding: 0px;
+    --badge-padding: 8px;
+    --badge-margin: 16px;
+    --badge-border-radius: 8px;
+    --badge-rank-font-size: 16px;
+    --badge-technology-font-size: 18px;
+    --badge-location-font-size: 16px;
+    --badge-icon-size: 32px;
+    --badge-border: 1px solid rgba(0, 0, 0, 0.1);
+    --badge-box-shadow: none;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* styling activity */
+codersrank-activity{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+}
+
+}
+
+
+/* styling for devices whose width is < 574px */
+@media screen and (max-width: 574px){
+/* main section */
+#welcome-section > p{
+    padding: 0px 30px;
+    margin-bottom: 30px;
+}
+
+    /* portfolio */
+
+codersrank-portfolio{
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+    
+    --grid-columns: 1;
+
+    --item-bg-color: #161616;
+    --item-border-radius: 8px;
+    --item-spacing: 16px;
+    --item-padding: 16px;
+    --logo-size: 40px;
+    --tag-bg-color: rgba(255,255,255,0.075);
+    
+    --link-text-color: green;
+    --link-bg-color: rgba(255,255,255,0.1);
+    --link-hover-bg-color: rgba(255,255,255,0.125);
+    --link-active-bg-color: rgba(255,255,255,0.075);
+    --link-border-radius: 8px;
+    --link-padding: 4px 8px;
+    --link-text-transform: none;
+    --link-font-weight: 500;
+    --link-margin: 8px;
+    font-size: 8px;
+    
+    
+}
+#work > h1{
+    font-size: 15px;
+}
+
+/* work experience */
+/* experience */
+/* work experience styling */
+codersrank-work-experience{
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    --item-bg-color: #161616;
+    --item-border-radius: 8px;
+    --item-spacing: 16px;
+    --item-padding: 4px;
+    --logo-size: 30px;
+    --tag-bg-color: rgba(255,255,255,0.075);
+    font-size: 8px;
+}
+
+/* styling education */
+#education > h1:nth-child(3){
+    font-size: 15px;
+}
+
+codersrank-education{
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    --item-bg-color: #161616;
+    --item-border-radius: 8px;
+    --item-spacing: 16px;
+    --item-padding: 20px;
+    --logo-size: 40px;
+    --tag-bg-color: rgba(255,255,255,0.075);
+    font-size: 8px;
+}
+#education > h1:nth-child(1){
+    font-size: 15px;
+}
+
+
+
+/* stats */
+body > main > section.stats > h1{
+    font-size: 15px;
+}
+
+/* activity */
+/* styling activity */
+codersrank-activity{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+}
+
+div > div{
+    height: 500px;
+}
+
+
+/* footer */
+#contact > h1{
+    font-size: 30px;
+}
 }
