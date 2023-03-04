@@ -232,3 +232,38 @@ body > footer > h1{
 .contacts-footer{
     font-size: 40px;
 }
+
+/* making it responsive */
+@media screen and (max-width: 800px){
+    /* styling the main area */
+    #welcome-section{
+        height: 60vh;
+    }
+
+
+    /* picture */
+    #welcome-section > div.dp > img{
+        height: 25vh;
+        /* margin-top: 25vh; */
+        border-radius: 800px;
+    }
+
+    /* styling the title */
+    #welcome-section > h1{
+        font-size: 1.5em;
+    }
+
+    /* styling the tagline */
+    #welcome-section > span{
+        font-size: 0.4em;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    /* styling the intro */
+    #welcome-section > p {
+        margin-top: 22px;
+        font-size: 10px;
+        
+    }
+}
