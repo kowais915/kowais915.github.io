@@ -416,6 +416,24 @@ main{
     margin-bottom: 30px;
 }
 
+/* badges */
+codersrank-summary{
+    --bg-color: transparent;
+    --badge-bg-color: #161616;
+    --badge-text-color: #fff;
+    --badges-padding: 0px;
+    --badge-padding: 8px;
+    --badge-margin: 10px;
+    --badge-border-radius: 8px;
+    --badge-rank-font-size: 16px;
+    --badge-technology-font-size: 13px;
+    --badge-location-font-size: 13px;
+    --badge-icon-size: 28px;
+    --badge-border: 1px solid rgba(0, 0, 0, 0.1);
+    --badge-box-shadow: none;
+    padding: 0px;
+}
+
 
     /* portfolio */
 
