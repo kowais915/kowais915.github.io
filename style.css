@@ -2,8 +2,6 @@
 
 
 
-
-
 *{
     padding: 0px;
     margin: 0px;
@@ -92,6 +90,11 @@ html{
 
 
 /* welcome section */
+/* tagline */
+#welcome-section > p >i {
+    font-size: medium;
+    margin: 20px 15px;
+}
 
 
 #welcome-section{
@@ -125,6 +128,11 @@ html{
 #welcome-section > div > img{
     border-radius: 700px;
     height: 25vh;
+}
+#welcome-section > div.dp > img {
+    margin-top: -30px;
+    margin-bottom: 16px;
+    border: 2px solid white;
 }
 
 /* styling dp ends here */
@@ -379,6 +387,23 @@ codersrank-activity{
 
 /* styling for devices whose width is < 574px */
 @media screen and (max-width: 574px){
+    /* picture */
+    #welcome-section > div.dp > img {
+        margin-top: -30px;
+        margin-bottom: 16px;
+        border: 2px solid white;
+    }
+
+    /* tagline */
+    #welcome-section > p > i{
+        font-size: small;
+        margin: 20px 15px;
+    }
+
+    #welcome-section > span {
+        font-size: large;
+    }
+    
 /* main section */
 
 main{
@@ -390,6 +415,7 @@ main{
     padding: 0px 30px;
     margin-bottom: 30px;
 }
+
 
     /* portfolio */
 
@@ -484,3 +510,5 @@ codersrank-activity{
     font-size: 30px;
 }
 }
+
+
